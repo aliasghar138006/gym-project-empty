@@ -1,0 +1,124 @@
+
+
+@font-face {
+    font-family: "Rezvan";
+    src: url("/static/fonts/Rezvan.ttf");
+}
+
+*{
+    font-family: "Rezvan";
+}
+
+.container {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #611717;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.header span {
+    margin-left: 10px;
+}
+
+
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    margin: 0px 30px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+li:hover {
+    background-color: white;
+    text-decoration: underline;
+    border-radius: 5px;
+    color: #611717;
+}
+
+#menu {
+    display: none;
+    cursor: pointer;
+}
+
+#menu div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+
+#navbar {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 600px;
+    width: 30%;
+    background-color: #611717;
+    color: white;
+    padding: 5px 15px;
+}
+
+#navbar button {
+   margin-right:70%;
+   margin-top: 10px;
+   background-color: transparent;
+   color: white;
+   border: 2px solid white;
+   padding: 3px 7px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+#navbar div {
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+
+@media (width < 854px) {
+    li {
+        margin: 0px 15px;
+    }
+}
+
+@media (width < 698px) {
+    li {
+        margin: 0px 5px;
+    }
+}
+
+@media (width < 600px) {
+    li {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+}
+
+@media (width < 320px) {
+    #navbar {
+        height: 650px;
+    }
+}

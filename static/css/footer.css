@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Rezvan";
+    src: url("./assets/fonts/Rezvan.ttf");
+}
+
+*{
+    font-family: "Rezvan";
+    /*margin: auto;*/
+}
+
+
+
+.footer {
+    display: flex;
+    z-index: 5;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 0px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #611717;
+    margin: auto;
+    color: white;
+}
+
+
+.footer div {
+    margin: 5px 50px;
+}
+
+
+.footer h4 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.footer div div {
+    margin: 5px 0px;
+}
