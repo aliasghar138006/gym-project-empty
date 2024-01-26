@@ -4,3 +4,9 @@ from django.shortcuts import render
 
 def home_page_view(request):
     return render(request ,"home_module/index.html" , {})
+
+def product_page_view(request):
+    return render(request ,"home_module/product.html" , {})
+
+def signup_page_view(request):
+    return render(request ,"home_module/signup.html" , {})

@@ -9,6 +9,11 @@
     font-family: "Rezvan";
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .container {
     position: relative;
 }
@@ -38,14 +43,14 @@
     justify-content: space-between;
 }
 
-li {
+.header li {
     list-style: none;
     margin: 0px 30px;
     cursor: pointer;
     padding: 5px 10px;
 }
 
-li:hover {
+.header li:hover {
     background-color: white;
     text-decoration: underline;
     border-radius: 5px;
@@ -96,19 +101,19 @@ li:hover {
 
 
 @media (width < 854px) {
-    li {
+    .header li {
         margin: 0px 15px;
     }
 }
 
 @media (width < 698px) {
-    li {
+    .header li {
         margin: 0px 5px;
     }
 }
 
 @media (width < 600px) {
-    li {
+    .header li {
         display: none;
     }
 

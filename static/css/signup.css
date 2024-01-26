@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Rezvan";
+    src: url("./assets/fonts/Rezvan.ttf");
+}
+
+
+.form-container {
+    margin: auto;
+    margin: 50px 0px;
+    direction: rtl;
+}
+
+*{
+
+    font-family: "Rezvan";
+}
+
+.form-container h4 {
+
+    padding: 10px 20px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: white;
+    background-color: #611717;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 95%;
+    background-color: #611717;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+form div {
+    margin: 15px 30px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    color: white;
+    margin-right: 10px;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    width: 60%;
+    color: white;
+}
+
+input:focus {
+    background-color: #a35a5a; ;
+}
+.gender div {
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    display: flex;
+}
+
+select {
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: #611717;
+    border: 2px solid white;
+    outline: none;
+    width: 65%;
+    color: white;
+}
+
+form span {
+    display: flex;
+    align-items: center;
+    margin: 10px 30px;
+    width: 100%;
+}
+
+form span label {
+
+}
+
+form span input {
+    width: 20%;
+}
+
+
+
+form button {
+    margin: 30px auto;
+    width: 70%;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: #c31818;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: #611717;
+}
+
+
+
+@media (width < 676px) {
+    form div {
+        width: 80%;
+    }
+    .gender div {
+        width: 80%;
+    }
+}

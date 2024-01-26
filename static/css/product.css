@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Rezvan";
+    src: url("./aseets/fonts/Rezvan.ttf");
+}
+
+* {
+    font-family: 'Rezvan';
+
+}
+
+.production-container {
+    display: flex;
+    padding: 30px 50px;
+    justify-content: center;
+    direction: rtl;
+}
+
+.body-builder , .coach {
+    padding: 15px 30px;
+    background-color: #611717;
+    border-radius: 7px;
+    color: white;
+    width: 20%;
+    height: 400px;
+    margin: 50px;
+    overflow: scroll;
+}
+
+.production-container span {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.body-builder div , .coach div {
+    display: flex;
+    flex-direction: column;
+}
+
+.production-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.production-container ul {
+    text-align: start;
+    padding: 5px;
+}
+
+.production-container li {
+    list-style: none;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+@media (width < 970px) {
+    .body-builder , .coach {
+        width: 40%;
+    }
+}
+
+@media (width < 756px) {
+    .production-container {
+        display: block;
+    }
+    .body-builder , .coach {
+        width: 60%;
+        margin:50px auto;
+    }
+}
+
