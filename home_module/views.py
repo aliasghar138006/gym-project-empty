@@ -11,5 +11,8 @@ def product_page_view(request):
 def signup_page_view(request):
     return render(request ,"home_module/signup.html" , {})
 
+def login_type_view(request):
+    return render(request ,"home_module/signin.html" , {})
+
 def login_page_view(request):
     return render(request ,"home_module/login.html" , {})

@@ -1,0 +1,42 @@
+{% extends "_layout.html" %}
+
+{% block title %}
+ورک تایم
+{% endblock %}
+
+{% block content %}
+ <div class="crew-container">
+      <h4>فرم ورک تایم</h4>
+      <form>
+        <div>
+          <label for="name">روز:</label>
+          <select>
+            <option>شنبه</option>
+            <option>یکشنبه</option>
+            <option>دوشنبه</option>
+            <option>سه شنبه</option>
+            <option>چهارشنبه</option>
+            <option>پنج شنبه</option>
+            <option>جمعه</option>
+          </select>
+        </div>
+        <div>
+          <label for="machineName">زمان شروع:</label>
+          <input id="machineName" type="text" />
+        </div>
+        <div>
+          <label for="body">زمان پایان:</label>
+          <input id="body" type="text" />
+        </div>
+        <div>
+          <label for="image"> مربی/خدمه:</label>
+          <select>
+            <option>مربی</option>
+            <option>خدمه</option>
+          </select>
+        </div>
+
+        <button>افزودن</button>
+      </form>
+    </div>
+{% endblock %}

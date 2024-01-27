@@ -1,0 +1,31 @@
+{% extends "_layout.html" %}
+
+{% block title %}
+حرکات
+{% endblock %}
+
+{% block content %}
+ <div class="crew-container">
+      <h4>فرم حرکات اصلاحی</h4>
+      <form>
+        <div>
+          <label for="name">نام:</label>
+          <input id="name" type="text" />
+        </div>
+        <div>
+          <label for="machineName">نام دستگاه:</label>
+          <input id="machineName" type="text" />
+        </div>
+        <div>
+          <label for="body">نام عضله:</label>
+          <input id="body" type="text" />
+        </div>
+        <div>
+          <label for="image"> تصویر:</label>
+          <input id="image" type="file" />
+        </div>
+
+        <button>افزودن</button>
+      </form>
+    </div>
+{% endblock %}

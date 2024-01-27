@@ -1,0 +1,30 @@
+{% extends "_layout.html" %}
+
+{% block title %}
+فرم آسیب
+{% endblock %}
+
+{% block content %}
+ <div class="crew-container">
+      <h4>فرم آسیب</h4>
+      <form>
+        <div>
+          <label for="name">نام عضو بدن:</label>
+          <input id="name" type="text" />
+        </div>
+        <div>
+          <label for="machineName">نوع آسیب:</label>
+          <input id="machineName" type="text" />
+        </div>
+        <div>
+          <label for="body"> زمان آسیب:</label>
+          <select>
+            <option>ماه های اخیر</option>
+            <option>قبلتر</option>
+          </select>
+        </div>
+
+        <button>افزودن</button>
+      </form>
+    </div>
+{% endblock %}

@@ -49,19 +49,31 @@
     width: 150px;
     text-align: center;
     background-color: #611717;
+    border: 2px solid #611717;
     color: white;
     border-radius: 7px;
     cursor: pointer;
 }
 
+.operations div div:hover {
+    background-color: white;
+
+    color: #611717;
+}
+
 .dashboard button {
     padding: 7px 8px;
     background-color: red;
+    border: 2px solid red;
     color: white;
-    border: none;
     cursor: pointer;
     font-weight: bold;
     border-radius: 7px;
+}
+
+.dashboard button:hover {
+    background-color: white;
+    color: red;
 }
 
 .operations button {
@@ -69,12 +81,17 @@
     width: 100%;
     text-align: center;
     background-color: red;
+    border: 2px solid red;
     color: white;
-    border: none;
     cursor: pointer;
     font-weight: bold;
     border-radius: 7px;
     justify-content: center;
+}
+
+.operations button:hover {
+    background-color: white;
+    color: red;
 }
 
 @media (width < 884px) {

@@ -17,41 +17,43 @@
     color: white;
     background-color: #611717;
 }
-form {
+.login-container form {
    justify-content: center;
     text-align: center;
-    width: fit-content;
+    width: 60%;
     background-color: #611717;
-    padding: 15px 20px;
+    padding: 50px 20px;
     border-radius: 10px;
     margin: auto;
 }
 
-form div {
-    margin: 15px 30px;
+ .login-container form div {
+    margin: 50px 30px;
+     width: 90%;
 }
 
-label {
+.login-container label {
     color: white;
     margin-left: 5px;
 }
 
-input {
+.login-container input {
     padding: 5px 10px;
     border-radius: 7px;
     background-color: transparent;
     border: 2px solid white;
     outline: none;
     color: white;
+    width: 80%;
 }
 
-input:focus {
+.login-container input:focus {
     background-color: #a35a5a; ;
 }
 
 
-form a {
-    margin: 30px auto;
+.login-container form a {
+    margin: 50px auto;
     width: 70%;
     padding: 10px 30px;
     text-align: center;
@@ -62,23 +64,23 @@ form a {
     border-radius: 7px;
 }
 
-a:hover {
+.login-container a:hover {
     background-color: #611717;
 }
 
 
 
 @media (width < 676px) {
-    form div {
+    .login-container form div {
         width: 80%;
     }
-    .gender div {
+    .login-container .gender div {
         width: 80%;
     }
 }
 
 @media (width < 884px) {
-    form span {
+    .login-container form span {
         width: 90%;
     }
 }
