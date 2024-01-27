@@ -1,0 +1,106 @@
+
+
+
+
+.gymmanager-container {
+    display: flex;
+    padding: 50px 60px;
+    direction: rtl;
+}
+
+.dashboard {
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #611717;
+    color: white;
+    border-radius: 7px;
+}
+
+.dashboard img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.dashboard div {
+    margin: 15px 0px;
+}
+
+.operations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    padding: 50px 60px;
+    border: 3px solid #611717;
+    border-radius: 15px;
+    width: 60%;
+}
+
+.operations img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.operations div div {
+    margin: 30px 0px;
+    padding: 10px 30px;
+    width: 150px;
+    text-align: center;
+    background-color: #611717;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.dashboard button {
+    padding: 7px 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.operations button {
+    padding: 10px 30px;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 7px;
+    justify-content: center;
+}
+
+@media (width < 884px) {
+    .operations {
+        display: block;
+    }
+    .operations img {
+        display: none;
+    }
+}
+
+@media (width < 560px) {
+    .dashboard {
+        display: none;
+    }
+    .operations {
+        display: block;
+        padding: 50px;
+        margin: auto;
+    }
+
+    .operations div div {
+        width: 70%;
+        margin: 20px 0px;
+    }
+    .operations img {
+        display: none;
+    }
+}

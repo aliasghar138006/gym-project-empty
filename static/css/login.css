@@ -50,7 +50,7 @@ input:focus {
 }
 
 
-form button {
+form a {
     margin: 30px auto;
     width: 70%;
     padding: 10px 30px;
@@ -62,7 +62,7 @@ form button {
     border-radius: 7px;
 }
 
-button:hover {
+a:hover {
     background-color: #611717;
 }
 
