@@ -1,0 +1,116 @@
+
+
+.body-builder-container {
+    margin: 50px 0px;
+    direction: rtl;
+}
+
+
+.body-builder-container h4 {
+
+    padding: 10px 20px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: white;
+    background-color: #611717;
+}
+.body-builder-container form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 95%;
+    background-color: #611717;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.body-builder-container form div {
+    margin: 15px 30px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-builder-container label {
+    color: white;
+    margin-right: 10px;
+}
+
+.body-builder-container input {
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    width: 60%;
+    color: white;
+}
+
+.body-builder-container input:focus {
+    background-color: #a35a5a; ;
+}
+.body-builder-container .gender div {
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    display: flex;
+}
+
+.body-builder-container select {
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: #611717;
+    border: 2px solid white;
+    outline: none;
+    width: 60%;
+    color: white;
+}
+
+.body-builder-container form span {
+    display: flex;
+    align-items: center;
+    margin: 10px 30px;
+    width: 100%;
+}
+
+.body-builder-container form span label {
+
+}
+
+.body-builder-container form span input {
+    width: 20%;
+}
+
+
+
+.body-builder-container form button {
+    margin: 30px auto;
+    width: 70%;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: #c31818;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.body-builder-container button:hover {
+    background-color: #611717;
+}
+
+
+
+@media (width < 676px) {
+    .body-builder-container form div {
+        width: 80%;
+    }
+    .body-builder-container .gender div {
+        width: 80%;
+    }
+}

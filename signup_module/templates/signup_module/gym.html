@@ -1,0 +1,67 @@
+{% extends "_layout.html" %}
+
+{% block title %}
+ثبت نام باشگاه
+{% endblock %}
+
+{% block content %}
+ <div class="gym-container">
+      <h4>فرم ثبت نام باشگاه</h4>
+      <form>
+        <div>
+          <label for="name">نام:</label>
+          <input id="name" type="text" />
+        </div>
+        <div>
+          <label for="lastName">نام خانوادگی:</label>
+          <input id="lastName" type="text" />
+        </div>
+        <div>
+          <label for="idCard">کدملی:</label>
+          <input id="idCard" type="text" />
+        </div>
+
+        <div>
+          <label for="resume">رزومه مدیر باشگاه:</label>
+          <input id="resume" type="text" />
+        </div>
+
+        <div>
+          <label for="gymName">نام باشگاه:</label>
+          <input id="gymName" type="text" />
+        </div>
+
+        <div>
+          <label for="constructionDate">تاریخ تاسیس:</label>
+          <input id="constructionDate" />
+        </div>
+
+        <div>
+          <label for="phone">تلفن همراه:</label>
+          <input id="phone" />
+        </div>
+        <div>
+          <label for="email">ایمیل:</label>
+          <input id="email" />
+        </div>
+        <div>
+          <label for="address">آدرس:</label>
+          <input id="address" />
+        </div>
+
+        <span>
+          <label for="accept-rules"
+            >با قوانین و شرایط گفته شده موافق هستم.</label
+          >
+          <input id="accept-rules" style="margin-right: 25px" type="checkbox" />
+        </span>
+        <span>
+          <label for="accept-role"
+            >به عنوان مدیر باشگاه در این سامانه ثبت نام میکنم.</label
+          >
+          <input id="accept-role" type="checkbox" />
+        </span>
+        <button>ثبت نام</button>
+      </form>
+    </div>
+{% endblock %}

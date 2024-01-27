@@ -5,94 +5,18 @@
 {% endblock %}
 
 {% block content %}
- <div class="form-container">
-      <h4>فرم ثبت نام ورزشکار</h4>
-      <form>
-
-        <div>
-          <label for="name">نام:</label>
-          <input id="name" type="text" />
-        </div>
-        <div>
-          <label for="lastName">نام خانوادگی:</label>
-          <input id="lastName" type="text" />
-        </div>
-        <div>
-          <label for="idCard">کدملی:</label>
-          <input id="idCard" type="text" />
-        </div>
-        <div>
-          <label for="date">تاریخ تولد:</label>
-          <input id="date" />
-        </div>
-        <div class="gender">
-          <label for="gender"> جنسیت:</label>
-          <div>
-            <label for="men">مرد</label>
-            <input id="men" type="radio" name="gender" />
-          </div>
-          <div>
-            <label for="women">زن</label>
-            <input id="women" type="radio" name="gender" />
-          </div>
-        </div>
-
-        <div>
-          <label for="height">قد به سانتی متر:</label>
-          <input id="height" />
-        </div>
-
-        <div>
-          <label for="weight">وزن به کیلوگرم:</label>
-          <input id="weight" />
-        </div>
-
-        <div>
-          <label for="target">هدف:</label>
-          <select id="target">
-            <option>سلامت</option>
-            <option>تناسب اندام</option>
-            <option>افزایش وزن و حجم</option>
-            <option>کاهش وزن</option>
-            <option>سلامت</option>
-          </select>
-        </div>
-
-        <div>
-          <label for="patient">بیماری:</label>
-          <input id="patient" placeholder="اختیاری" />
-        </div>
-        <div>
-          <label for="damage">آسیب جسمی:</label>
-          <input id="damage" placeholder="اختیاری" />
-        </div>
-
-        <div>
-          <label for="phone">تلفن همراه:</label>
-          <input id="phone" />
-        </div>
-        <div>
-          <label for="email">ایمیل:</label>
-          <input id="email" />
-        </div>
-        <div>
-          <label for="address">آدرس:</label>
-          <input id="address" />
-        </div>
-
-        <span>
-          <label for="accept-rules"
-            >با قوانین و شرایط گفته شده موافق هستم.</label
-          >
-          <input id="accept-rules" style="margin-right: 25px" type="checkbox" />
-        </span>
-        <span>
-          <label for="accept-role"
-            >به عنوان ورزشکار در این سامانه ثبت نام میکنم.</label
-          >
-          <input id="accept-role" type="checkbox" />
-        </span>
-        <button>ثبت نام</button>
-      </form>
+   <div class="signup-container">
+      <div>
+        <a href="/signup/coach">ثبت نام به عنوان مربی</a>
+      </div>
+      <div>
+        <a href="/signup/body-builder">ثبت نام به عنوان ورزشکار</a>
+      </div>
+      <div>
+        <a href="/signup/crew"> ثبت نام به عنوان خدمه </a>
+      </div>
+      <div>
+        <a href="/signup/gym"> ثبت نام باشگاه </a>
+      </div>
     </div>
 {% endblock %}
